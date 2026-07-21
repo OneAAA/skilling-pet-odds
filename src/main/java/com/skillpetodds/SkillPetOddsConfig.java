@@ -4,9 +4,10 @@ import net.runelite.client.config.Config;
 import net.runelite.client.config.ConfigGroup;
 import net.runelite.client.config.ConfigItem;
 
-@ConfigGroup("example")
+@ConfigGroup(SkillPetOddsConfig.GROUP)
 public interface SkillPetOddsConfig extends Config
 {
+	String GROUP = "skillpetsodds"; // approach from LootTrackerConfig.java in runelite
 	@ConfigItem(
 		keyName = "greeting",
 		name = "Welcome Greeting",
@@ -14,6 +15,6 @@ public interface SkillPetOddsConfig extends Config
 	)
 	default String greeting()
 	{
-		return "Hello";
+		return "Hello skillers!";
 	}
 }
