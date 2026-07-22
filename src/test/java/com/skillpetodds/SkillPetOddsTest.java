@@ -2,6 +2,7 @@ package com.skillpetodds;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
+import com.skillpetodds.SkillPetOddsPlugin;
 
 public class SkillPetOddsTest
 {
